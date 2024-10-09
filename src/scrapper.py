@@ -18,4 +18,4 @@ def check_ticket_availability():
     else:
         print("Élément indiquant la disponibilité des tickets non trouvé.")
 
-    return quantity > 0
+    return int(quantity) > 0
